@@ -1,22 +1,55 @@
-# Compiled class file
-*.class
+#########
+# Maven #
+#########
+target
+bin
+############
+# IntelliJ #
+############
+.idea
+*.iml
 
-# Log file
+########
+# Logs #
+########
 *.log
+*.gz
+######################
+# OS generated files #
+######################
+Thumbs.db
+**/.DS_Store
 
-# BlueJ files
-*.ctxt
+#########################
+# Bower and Grunt files #
+#########################
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+target-grunt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+### PMD
+*.pmd
+*.pmdruleset
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+#########################
+# eclipse and others
+#########################
+.project
+.metadata
+.cache
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+.classpath
+.settings/
+.loadpath
+*~
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+atlassian-ide-plugin.xml
